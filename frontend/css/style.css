@@ -191,6 +191,7 @@ padding: 50px 20px;
 }
 
 .app-content {
+    display: none;
     flex: 1;
     padding: 50px;
 }
@@ -204,4 +205,9 @@ background-color: var(--azul-escuro);
 border-radius: 5px;
 padding: 20px;
 margin: 32px;
+}
+
+
+.goals{
+    display: none;
 }
