@@ -17,8 +17,6 @@ document.querySelector(".dashboard-btn");
 const appContent =
 document.querySelector(".app-content");
 dashboardButton.addEventListener("click", function(){
-    appContent.innerHTML =
-    ""
     
 });
 

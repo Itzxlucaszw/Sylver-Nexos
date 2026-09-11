@@ -190,14 +190,51 @@ padding: 50px 20px;
     background-color: var(--azul-escuro);
 }
 
-.app-content {
+.home{
+    position: relative;
+    min-height: 500px;
+    padding: 25px;
+}
+
+.account{
+    position: relative;
+    display: inline-block;
+}
+
+.account-btn{
+    background: none;
+    border: none;
+    color: var(--branco-azulado);
+    font-size: 1.3em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.account-menu{
     display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    min-width: 180px;
+    background-color: var(--azul-escuro);
+    border: var(--azul);
+    border-radius: 8px;
+}
+
+.app-content {
     flex: 1;
     padding: 50px;
 }
 
 .app-content h2 {
     margin-top: 0;
+}
+
+.routine,
+.goals,
+.finances,
+.notes{
+    display: none;
 }
 
 .explorer {
@@ -207,7 +244,3 @@ padding: 20px;
 margin: 32px;
 }
 
-
-.goals{
-    display: none;
-}
