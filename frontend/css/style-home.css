@@ -18,6 +18,70 @@ header{
     background-color: var(--azul-escuro);
 }
 
+.sidebar{
+    background-color: var(--azul-escuro);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
 .sylver-btn{
-    
+    position: relative;
+    z-index: 1000;
+    background: none;
+    border: none;
+    color: var(--branco-azulado);
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.sylver-btn :hover{
+    transform: translateY(-2px);
+    color: var(--azul-claro);
+}
+
+.menu{
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(8, 13, 26, 0.90);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    display: none;
+    justify-content: center;
+    padding: 0 30px;
+    gap: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease, visibility 0.4s ease
+}
+
+.menu.open{
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu a {
+    color: var(--branco-azulado);
+    text-decoration: none;
+    font-size: 2em;
+
+    transform: translateY(20px);
+    transition: transform 0.4s ease;
+    transition: color 0.5s ease, transform 0.5s ease;
+}
+
+.menu.open a {
+    transform: translateY(0);
+}
+
+.menu a:hover {
+    transform: translateY(-2px);
+    color: var(--azul);
 }
