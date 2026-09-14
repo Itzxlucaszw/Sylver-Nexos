@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+:root {
+--azul-fundo: #080D1A;
+--azul-escuro: #102A43;
+--azul: #2563EB;
+--azul-claro: #38BDF8;
+--roxo: #7C3AED;
+--branco-azulado: #c9e6fa;
+}
+
+body{
+    background-color: var(--azul-fundo);
+    color: var(--branco-azulado);
+}
+
+header{
+    background-color: var(--azul-escuro);
+}
+
+.sylver-btn{
+    
+}
