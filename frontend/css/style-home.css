@@ -35,17 +35,11 @@ header {
     align-items: center;
 }
 
-.logo {
-    color: var(--branco-azulado);
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
 .menu-btn {
     background: none;
     border: none;
     color: var(--branco-azulado);
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     cursor: pointer;
     transition: 0.3s ease;
 }
@@ -58,7 +52,6 @@ header {
 .menu {
     position: absolute;
     top: 100%;
-    right: 0;
 
     display: flex;
     flex-direction: column;
@@ -101,7 +94,7 @@ header {
     color: var(--branco-azulado);
 
     text-decoration: none;
-    text-align: left;
+    text-align: right;
 
     font-size: 1rem;
     cursor: pointer;
