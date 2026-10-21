@@ -6,4 +6,5 @@ formulario.addEventListener('submit' function(event){
     const emailDigitado = document.getElementById('email').value;
     const senhaDigitado = document.getElementById('senha').value;
 
+    
 });
